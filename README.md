@@ -1,2 +1,8 @@
 # Pico-environment
-Sensors with teh Raspberry Pi PICO (W)
+Sensors with the Raspberry Pi PICO (W)
+
+As the Pico is a tiny little Programmable Board
+my Goal is to programm some microPython Code to
+readout these Sensors.
+Here i post my progress and share the most
+functional parts.
