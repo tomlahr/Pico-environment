@@ -4,6 +4,8 @@ from bme680 import *
 
 i2c = I2C(0)
 # In this setup the BME680 Sensor is connected to Pin 11 (SDA) / Pin 12 (SCL)
+# Tools: Thonny with micropython
+# https://thonny.org/ ; https://micropython.org/download/rp2-pico/
 
 bme = BME680_I2C(i2c=i2c)
 
