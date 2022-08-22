@@ -3,6 +3,7 @@ from time import sleep
 from bme680 import *
 
 i2c = I2C(0)
+# In this setup the BME680 Sensor is connected to Pin 11 (SDA) / Pin 12 (SCL)
 
 bme = BME680_I2C(i2c=i2c)
 
